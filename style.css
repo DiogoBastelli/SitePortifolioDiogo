@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+
+}
+
+body{
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    background-image: url(imagem/planoDeFundoImagenAzulTrilas.jpg);
+}
+
+#contato{
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+#projetos{
+    background-color: rgba(119, 119, 119, 0.699);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#projetos h1{
+    color: black;
+}
+
+#projetos ul{
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#projetos li{
+    margin-bottom: 10px;
+    color: white;
+}
+
+#projetos a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+#formacao{
+    background-color: rgb(119, 119, 119  ,0.699);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#formacao h1{
+    color: black;
+}
+
+#formacao h2{
+    color: black;
+}
+
+#formacao ul{
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#formacao li{
+    margin-bottom: 10px;
+    color: white;
+}
+
+#experiencias{
+    background-color: rgb(119, 119, 119 , 0.699);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#experiencias h1{
+    color: black;
+}
+
+#experiencias h2{
+    color: black;
+}
+
+#experiencias ul{
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#experiencias li{
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+form{
+    background-color: rgb(119, 119, 119);
+    padding-top: 20px;
+    margin-top: 20px;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+form label{
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+form input , form textarea{
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-style: 5px;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: rgb(21, 255, 0);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgba(0, 255, 0, 0.39);
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(78, 78, 78  ,0.699);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(red, green, blue);
+}
+
+nav ul{
+    list-style: decimal;
+    padding: 0px;
+    display: inline;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+header{
+    background-color: rgb(119, 119, 119 , 0.699);
+    color: rgb(69, 25, 126);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+header h1{
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+header nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(0, 0, 0 , 0.1);
+}
+
+#sobre{
+    background-color: rgb(119, 119, 119 , 0.699);
+    
+}
+#sobre h2{
+    color: rgb(0, 0, 0);
+}
+
+#sobre p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+}
+
+#footer{
+    font-size: larger;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+#footer a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
